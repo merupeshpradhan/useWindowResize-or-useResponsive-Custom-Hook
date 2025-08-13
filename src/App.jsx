@@ -1,9 +1,12 @@
-import React from 'react'
+import UseWindowResizeTest from "./use-window-resize/test";
 
 function App() {
   return (
-    <div>App</div>
-  )
+    <div>
+      {/* Use Window Resize Test*/}
+      <UseWindowResizeTest />
+    </div>
+  );
 }
 
-export default App
+export default App;

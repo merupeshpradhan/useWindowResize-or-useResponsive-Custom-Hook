@@ -10,7 +10,7 @@ export default function useWindowResize() {
   useLayoutEffect(() => {
     handleResize();
 
-    window.addEventListener("resize", handleResize);
+    window.addEventListener("resize", handleResize); 
 
     return () => {
       window.removeEventListener("resize", handleResize);
